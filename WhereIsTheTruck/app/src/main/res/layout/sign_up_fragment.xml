@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.signup.SignUpFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/nameTextfield"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/emailTextfield"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="@+id/nameTextfield"
+            app:layout_constraintStart_toStartOf="@+id/nameTextfield"
+            app:layout_constraintTop_toBottomOf="@+id/nameTextfield" />
+
+        <EditText
+            android:id="@+id/passwordTextfield"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="@+id/emailTextfield"
+            app:layout_constraintStart_toStartOf="@+id/emailTextfield"
+            app:layout_constraintTop_toBottomOf="@+id/emailTextfield" />
+
+        <EditText
+            android:id="@+id/confirmationPassTextfield"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/repeat_password"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="@+id/passwordTextfield"
+            app:layout_constraintStart_toStartOf="@+id/passwordTextfield"
+            app:layout_constraintTop_toBottomOf="@+id/passwordTextfield" />
+
+        <EditText
+            android:id="@+id/neighborhoodTextField"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/neighborhood"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/confirmationPassTextfield"
+            app:layout_constraintStart_toStartOf="@+id/confirmationPassTextfield"
+            app:layout_constraintTop_toBottomOf="@+id/confirmationPassTextfield" />
+
+        <Button
+            android:id="@+id/signupButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:text="@string/register"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/neighborhoodTextField"
+            app:layout_constraintStart_toStartOf="@+id/neighborhoodTextField"
+            app:layout_constraintTop_toBottomOf="@+id/neighborhoodTextField" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:elevation="10dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

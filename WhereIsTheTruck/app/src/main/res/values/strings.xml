@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">WhereIsTheTruck</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+
+    <string name="menu_home">Home</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+
+
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="current_password">Contraseña actual</string>
+    <string name="register">Registrarse</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="no_account_msg">Sin cuenta, presiona aquí</string>
+    <string name="neighborhood">Barrio</string>
+    <string name="repeat_password">Confirme contraseña</string>
+    <string name="name">Nombre</string>
+    <string name="password_dont_match">Las contraseñas no coinciden</string>
+    <string name="all_fields_are_mandatory">Todos los campos son obligatorios</string>
+    <string name="enter_login_info">Ingrese correo y contraseña</string>
+    <string name="generic_error">Hubo un error. Por favor intente de nuevo</string>
+    <string name="invalid_login">Usuario/ contraseña inválido</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="logout_confirm_Message">Está seguro?</string>
+    <string name="yes">Si</string>
+    <string name="cancel">Cancelar</string>
+    <string name="configuration">Configuración</string>
+    <string name="profile">Perfil</string>
+    <string name="save">Guardar</string>
+    <string name="password_updated">La contraseña ha sido cambiada</string>
+    <string name="no_route">Lo sentimos.\nNo hay servicio de momento.</string>
+    <string name="update_passowrd">Cambiar contraseña</string>
+    <string name="no_favorite_route">No hay ruta preferida.\nVisita Menu -> Preferencias para seleccionar una.</string>
+
+</resources>
